@@ -1,0 +1,6 @@
+pages\AddResourcePage.class
+pages\DefaultFieldFarm_BasicStrategyPage.class
+base\BaseClass.class
+pages\LoginPage.class
+utils\Utilities.class
+pages\HomePage.class

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="0" name="testRunners.TestRunner" time="326.349" errors="2" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\shrut\eclipse-workspace\Planting Profits"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\shrut\eclipse-workspace\Planting Profits"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\shrut\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\shrut\Maven\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Git\cmd;C:\Users\shrut\Maven\apache-maven-3.6.3\bin;C:\Users\shrut\SoapUI\Webservice\axis2-1.6.2\bin;D:\BrowserDrivers;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\shrut\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="maven.conf" value="C:\Users\shrut\Maven\apache-maven-3.6.3\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\shrut\Maven\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\shrut"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="shrut"/>
+    <property name="java.class.path" value="C:\Users\shrut\Maven\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\shrut\Maven\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="To fill the Basic Strategy for Default Field Farm" name="Basic Strategy" time="163.173">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h6[contains(text(),&apos;Default Field Farm&apos;)]&quot;}
+  (Session info: chrome=90.0.4430.93)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-BBDRQKO5&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\shrut\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56800}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a921d68a7f89d3d819591e4bdca9032c
+*** Element info: {Using=xpath, value=//h6[contains(text(),&apos;Default Field Farm&apos;)]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h6[contains(text(),&apos;Default Field Farm&apos;)]&quot;}
+  (Session info: chrome=90.0.4430.93)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-BBDRQKO5&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\shrut\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56800}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a921d68a7f89d3d819591e4bdca9032c
+*** Element info: {Using=xpath, value=//h6[contains(text(),&apos;Default Field Farm&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pages.DefaultFieldFarm_BasicStrategyPage.clickOndefaultFeildFarmLink(DefaultFieldFarm_BasicStrategyPage.java:71)
+	at stepDefinitions.DefaultFieldFarm_BasicStrategySteps.user_clicks_on_link_to_view_field_farms(DefaultFieldFarm_BasicStrategySteps.java:51)
+	at ✽.User clicks on &quot;Default Field Farm&quot; link to view Field Farms(file:///C:/Users/shrut/eclipse-workspace/Planting%20Profits/scr/test/resources/features/Default_Fied_Farm_Basic_Form.feature:78)
+</error>
+    <system-out>
+Scenario: Basic Strategy                                                                                                       # scr/test/resources/features/Default_Fied_Farm_Basic_Form.feature:9
+  Given User is on the &quot;Login&quot; screen                                                                                          # stepDefinitions.LoginSteps.user_is_on_the_screen(java.lang.String)
+  When User enters username &quot;siva@c4bneeds.com&quot; and password &quot;Test@1234&quot;                                                       # stepDefinitions.LoginSteps.user_enters_username_and_password(java.lang.String,java.lang.String)
+  And User clicks on Login button                                                                                              # stepDefinitions.LoginSteps.user_clicks_on_login_button()
+Create Strategy
+  When User clicks on the  button &quot;Create Strategy&quot; button                                                                     # stepDefinitions.HomeSteps.user_clicks_on_the_button_button(java.lang.String)
+Successfully clicked on Created Strategy button
+  Given User is landed on Planning Model page                                                                                  # stepDefinitions.HomeSteps.user_is_landed_on_planning_model_page()
+Landed on page tab Planning Model
+  Then User verify&apos;s on &quot;Planning Model&quot; tab that the text &quot;Create Strategy&quot;  is displayed                                     # stepDefinitions.HomeSteps.user_verify_s_on_tab_that_the_text_is_displayed(java.lang.String,java.lang.String)
+  Then User selects &quot;Default Field Farm&quot; Farm Name                                                                             # stepDefinitions.HomeSteps.user_selects_farm_name(java.lang.String)
+  And User selects &quot;Field Farm1&quot; Strategy Name                                                                                 # stepDefinitions.HomeSteps.user_selects_strategy_name(java.lang.String)
+  And User selects &quot;Field&quot; Planning Model and enters no Available Acres  required                                              # stepDefinitions.HomeSteps.user_selects_planning_model_and_enters_no_available_acres_required(java.lang.String)
+  When User clicks on &quot;Income Goal (Optional)&quot; button                                                                          # stepDefinitions.HomeSteps.user_clicks_on_button(java.lang.String)
+IncomeGoal value is 10000
+Addition of all the values i.e fixedCost and livingExpense and additionalIncome is equal to IncomeGoal
+  And User enters Fixed Costs &quot;2000&quot; and Living Expenses &quot;3000&quot; and Additional Income &quot;5000&quot; and verify&apos;s the IncomeGoal value # stepDefinitions.HomeSteps.user_enters_fixed_costs_and_living_expenses_and_additional_income_and_verify_s_the_income_goal_value(java.lang.String,java.lang.String,java.lang.String)
+  Then User clicks at &quot;Save &amp; Next&quot; button                                                                                     # stepDefinitions.HomeSteps.user_clicks_at_button(java.lang.String)
+Landed on page tab CROPS &amp; CROP INFO
+  Then User verify&apos;s on &quot;CROPS &amp; CROP INFO&quot; tab that the text &quot;Crop Choices&quot;  is displayed                                     # stepDefinitions.HomeSteps.user_verify_s_on_tab_that_the_text_is_displayed(java.lang.String,java.lang.String)
+  When User clicks on &quot;Field Crops&quot;                                                                                            # stepDefinitions.HomeSteps.user_clicks_on(java.lang.String)
+  And under &quot;Field Crops&quot; User selects the below crops                                                                         # stepDefinitions.HomeSteps.under_user_selects_the_below_crops(java.lang.String,io.cucumber.datatable.DataTable)
+Alfalfa
+Estimated Cost is 2300
+expyied * expprice-prodCost = EstimatedCost where total is 2300and estimated cost is2300
+Alfalfa
+Barley
+Estimated Cost is 1000
+expyied * expprice-prodCost = EstimatedCost where total is 1000and estimated cost is1000
+Barley
+Cotton (upland)
+Estimated Cost is 380
+expyied * expprice-prodCost = EstimatedCost where total is 380and estimated cost is380
+Cotton (upland)
+  Then for &quot;Field Crops&quot; User can see the below table and can add details under given below                                    # stepDefinitions.HomeSteps.for_user_can_see_the_below_table_and_can_add_details_under_given_below(java.lang.String,io.cucumber.datatable.DataTable)
+  When User clicks on &quot;Fruits and Vegetables&quot;                                                                                  # stepDefinitions.HomeSteps.user_clicks_on(java.lang.String)
+  And under &quot;Fruits and Vegetables&quot; User selects the below crops                                                               # stepDefinitions.HomeSteps.under_user_selects_the_below_crops(java.lang.String,io.cucumber.datatable.DataTable)
+Cauliflower
+Estimated Cost is 5800
+expyied * expprice-prodCost = EstimatedCost where total is 5800and estimated cost is5800
+Cauliflower
+Broccoli
+Estimated Cost is 5800
+expyied * expprice-prodCost = EstimatedCost where total is 5800and estimated cost is5800
+Broccoli
+Lettuce (iceberg)
+Estimated Cost is 5800
+expyied * expprice-prodCost = EstimatedCost where total is 5800and estimated cost is5800
+Lettuce (iceberg)
+  Then for &quot;Fruits and Vegetables&quot; User can see the below table and can add details under given below                          # stepDefinitions.HomeSteps.for_user_can_see_the_below_table_and_can_add_details_under_given_below(java.lang.String,io.cucumber.datatable.DataTable)
+  And User clicks at &quot;Save &amp; Next&quot; button                                                                                      # stepDefinitions.HomeSteps.user_clicks_at_button(java.lang.String)
+Landed on page tab FIELDS &amp; FIELD INFO
+  Then User verify&apos;s on &quot;FIELDS &amp; FIELD INFO&quot; tab that the text &quot;Field Information&quot;  is displayed                              # stepDefinitions.HomeSteps.user_verify_s_on_tab_that_the_text_is_displayed(java.lang.String,java.lang.String)
+  Then User clicks on &quot;+ Add Field&quot; button to add the &quot;Field Information&quot; under &quot;FIELDS &amp; FIELD INFO&quot; tab                      # stepDefinitions.AddResourcesSteps.user_clicks_on_button_to_add_the_under_tab(java.lang.String,java.lang.String,java.lang.String)
+  And User adds the new Field Information given below                                                                          # stepDefinitions.DefaultFieldFarm_BasicStrategySteps.user_adds_the_new_field_information_given_below(io.cucumber.datatable.DataTable)
+  Then User clicks at &quot;Save &amp; Next&quot; button                                                                                     # stepDefinitions.HomeSteps.user_clicks_at_button(java.lang.String)
+Landed on page tab CROP/ FIELD CHOICES
+  Then User verify&apos;s on &quot;CROP/ FIELD CHOICES&quot; tab that the text &quot;CROP CHOICES&quot;  is displayed                                   # stepDefinitions.HomeSteps.user_verify_s_on_tab_that_the_text_is_displayed(java.lang.String,java.lang.String)
+  Then User unchecks the crop below depending upon the radio button is on or off which is &quot;OFF&quot; here                           # stepDefinitions.DefaultFieldFarm_BasicStrategySteps.user_unchecks_the_crop_below_depending_upon_the_radio_button_is_on_or_off_which_is_here(java.lang.String,io.cucumber.datatable.DataTable)
+  Then User clicks at &quot;Save &amp; Next&quot; button                                                                                     # stepDefinitions.HomeSteps.user_clicks_at_button(java.lang.String)
+Landed on page tab MANAGE RESOURCES
+  Then User verify&apos;s on &quot;MANAGE RESOURCES&quot; tab that the text &quot;Manage Resources&quot;  is displayed                                  # stepDefinitions.HomeSteps.user_verify_s_on_tab_that_the_text_is_displayed(java.lang.String,java.lang.String)
+  And User clicks on the edit button and enters the values for the below Resource                                              # stepDefinitions.HomeSteps.user_clicks_on_the_edit_button_and_enters_the_values_for_the_below_resource(io.cucumber.datatable.DataTable)
+  Then User clicks at &quot;Save &amp; Next&quot; button                                                                                     # stepDefinitions.HomeSteps.user_clicks_at_button(java.lang.String)
+Landed on page tab FORWARD SALES
+  Then User verify&apos;s on &quot;FORWARD SALES&quot; tab that the text &quot;Forward Sales&quot;  is displayed                                        # stepDefinitions.HomeSteps.user_verify_s_on_tab_that_the_text_is_displayed(java.lang.String,java.lang.String)
+  And User clicks at &quot;Save &amp; Next&quot; button                                                                                      # stepDefinitions.HomeSteps.user_clicks_at_button(java.lang.String)
+Landed on page tab CROP LIMITS
+  Then User verify&apos;s on &quot;CROP LIMITS&quot; tab that the text &quot;Crop Limits&quot;  is displayed                                            # stepDefinitions.HomeSteps.user_verify_s_on_tab_that_the_text_is_displayed(java.lang.String,java.lang.String)
+  And User enters the below values for the selected crops and saves the details                                                # stepDefinitions.HomeSteps.user_enters_the_below_values_for_the_selected_crops_and_saves_the_details(io.cucumber.datatable.DataTable)
+  And User clicks at &quot;Submit &amp; Review&quot; button                                                                                  # stepDefinitions.HomeSteps.user_clicks_at_button(java.lang.String)
+  Then User gets the popup screen and User clicks on &quot;Analyze&quot; Button                                                          # stepDefinitions.HomeSteps.user_gets_the_popup_screen_and_user_clicks_on_button(java.lang.String)
+  Then User clicks on &quot;Default Field Farm&quot; link to view Field Farms                                                            # stepDefinitions.DefaultFieldFarm_BasicStrategySteps.user_clicks_on_link_to_view_field_farms(java.lang.String)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h6[contains(text(),&apos;Default Field Farm&apos;)]&quot;}
+  (Session info: chrome=90.0.4430.93)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-BBDRQKO5&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\shrut\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56800}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a921d68a7f89d3d819591e4bdca9032c
+*** Element info: {Using=xpath, value=//h6[contains(text(),&apos;Default Field Farm&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pages.DefaultFieldFarm_BasicStrategyPage.clickOndefaultFeildFarmLink(DefaultFieldFarm_BasicStrategyPage.java:71)
+	at stepDefinitions.DefaultFieldFarm_BasicStrategySteps.user_clicks_on_link_to_view_field_farms(DefaultFieldFarm_BasicStrategySteps.java:51)
+	at âœ½.User clicks on &quot;Default Field Farm&quot; link to view Field Farms(file:///C:/Users/shrut/eclipse-workspace/Planting%20Profits/scr/test/resources/features/Default_Fied_Farm_Basic_Form.feature:78)
+
+  And User is navigaed to Planning Dashboard page where for strategy &quot;Field Farm1&quot; user clicks on the &quot;Result&quot; button          # stepDefinitions.HomeSteps.user_is_navigaed_to_planning_dashboard_page_where_for_strategy_user_clicks_on_the_button(java.lang.String,java.lang.String)
+
+    Embedding Basic_Strategy [image/png 1036227 bytes]
+
+
+    Embedding Basic_Strategy [image/png 1036209 bytes]
+
+      java.io.FileNotFoundException: C:\Users\shrut\eclipse-workspace\Planting Profits\failedScenarioScreenShots\Failed\Basic_Strategy.png (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:213)
+	at java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:162)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+	at stepDefinitions.Hooks.takeScreenShot(Hooks.java:27)
+
+</system-out>
+    <system-err>Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 21789
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 08, 2021 2:21:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="To fill the Basic Strategy for Default Field Farm" name="Basic Strategy" time="163.176">
+    <error message="C:\Users\shrut\eclipse-workspace\Planting Profits\failedScenarioScreenShots\Failed\Basic_Strategy.png (The system cannot find the path specified)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: C:\Users\shrut\eclipse-workspace\Planting Profits\failedScenarioScreenShots\Failed\Basic_Strategy.png (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:213)
+	at java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:162)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+	at stepDefinitions.Hooks.takeScreenShot(Hooks.java:27)
+</error>
+  </testcase>
+</testsuite>

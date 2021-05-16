@@ -1,0 +1,6 @@
+stepDefinitions\Hooks.class
+stepDefinitions\LoginSteps.class
+stepDefinitions\HomeSteps.class
+stepDefinitions\DefaultFieldFarm_BasicStrategySteps.class
+testRunners\TestRunner.class
+stepDefinitions\AddResourcesSteps.class

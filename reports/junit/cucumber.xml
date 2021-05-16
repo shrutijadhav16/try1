@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="178.447">
+<testcase classname="To fill the Basic Strategy for Default Field Farm" name="Basic Strategy" time="178.096">
+<failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(text(),'Field Farm1')]/following-sibling::div//button[contains(text(),'Result')]&quot;}&#10;  (Session info: chrome=90.0.4430.212)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-BBDRQKO5', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\shrut\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50958}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 06735abc488b4e3445c60029cf414d67&#10;*** Element info: {Using=xpath, value=//div[contains(text(),'Field Farm1')]/following-sibling::div//button[contains(text(),'Result')]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given User is on the "Login" screen.........................................passed
+When User enters username "siva@c4bneeds.com" and password "Test@1234"......passed
+And User clicks on Login button.............................................passed
+When User clicks on the  button "Create Strategy" button....................passed
+Given User is landed on Planning Model page.................................passed
+Then User verify's on "Planning Model" tab that the text "Create Strategy"  is displayed.passed
+Then User selects "Default Field Farm" Farm Name............................passed
+And User selects "Field Farm1" Strategy Name................................passed
+And User selects "Field" Planning Model and enters no Available Acres  required.passed
+When User clicks on "Income Goal (Optional)" button.........................passed
+And User enters Fixed Costs "2000" and Living Expenses "3000" and Additional Income "5000" and verify's the IncomeGoal value.passed
+Then User clicks at "Save & Next" button....................................passed
+Then User verify's on "CROPS & CROP INFO" tab that the text "Crop Choices"  is displayed.passed
+When User clicks on "Field Crops"...........................................passed
+And under "Field Crops" User selects the below crops........................passed
+Then for "Field Crops" User can see the below table and can add details under given below.passed
+When User clicks on "Fruits and Vegetables".................................passed
+And under "Fruits and Vegetables" User selects the below crops..............passed
+Then for "Fruits and Vegetables" User can see the below table and can add details under given below.passed
+And User clicks at "Save & Next" button.....................................passed
+Then User verify's on "FIELDS & FIELD INFO" tab that the text "Field Information"  is displayed.passed
+Then User clicks on "+ Add Field" button to add the "Field Information" under "FIELDS & FIELD INFO" tab.passed
+And User adds the new Field Information given below.........................passed
+Then User clicks at "Save & Next" button....................................passed
+Then User verify's on "CROP/ FIELD CHOICES" tab that the text "CROP / FIELD CHOICES"  is displayed.passed
+Then User unchecks the crop below depending upon the radio button is on or off which is "OFF" here.passed
+Then User clicks at "Save & Next" button....................................passed
+Then User verify's on "MANAGE RESOURCES" tab that the text "Manage Resources"  is displayed.passed
+And User clicks on the edit button and enters the values for the below Resource.passed
+Then User clicks at "Save & Next" button....................................passed
+Then User verify's on "FORWARD SALES" tab that the text "Forward Sales"  is displayed.passed
+And User clicks at "Save & Next" button.....................................passed
+Then User verify's on "CROP LIMITS" tab that the text "Crop Limits"  is displayed.passed
+And User enters the below values for the selected crops and saves the details.passed
+And User clicks at "Submit & Review" button.................................passed
+Then User gets the popup screen and User clicks on "Analyze" Button.........passed
+Then User clicks on "Default Field Farm" link to view Field Farms...........passed
+And User is navigaed to Planning Dashboard page where for strategy "Field Farm1" user clicks on the "Result" button.failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Field Farm1')]/following-sibling::div//button[contains(text(),'Result')]"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-BBDRQKO5', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\shrut\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50958}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 06735abc488b4e3445c60029cf414d67
+*** Element info: {Using=xpath, value=//div[contains(text(),'Field Farm1')]/following-sibling::div//button[contains(text(),'Result')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pages.HomePage.viewResult(HomePage.java:725)
+	at stepDefinitions.HomeSteps.user_is_navigaed_to_planning_dashboard_page_where_for_strategy_user_clicks_on_the_button(HomeSteps.java:181)
+	at ✽.User is navigaed to Planning Dashboard page where for strategy "Field Farm1" user clicks on the "Result" button(file:///C:/Users/shrut/eclipse-workspace/Planting%20Profits/scr/test/resources/features/Default_Fied_Farm_Basic_Form.feature:79)
+]]></failure>
+</testcase>
+</testsuite>
